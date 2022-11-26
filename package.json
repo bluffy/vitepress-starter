@@ -1,0 +1,17 @@
+{
+  "name": "dokus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@gitlab.cidb.de:2222/mritter/vite-test.git",
+  "author": "M. Ritter",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.29",
+    "vue": "^3.2.45"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
